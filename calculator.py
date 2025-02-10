@@ -11,4 +11,4 @@ def calc():
     return res
 
 result = calc()
-print(f"Результат: {result}")
+print(f"Результат операции: {result}")
