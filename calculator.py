@@ -5,7 +5,9 @@ def calc():
     if (op == '+'): res = a + b
     elif (op == '-'): res = a - b
     elif (op == '*'): res = a * b
-    elif (op == '/'): res = a / b
+    elif (op == '/'): 
+        if b == 0: res = "Ошибка: деление на ноль"
+        else: res = a / b
     else: res = "Некорректная операция"
     
     return res
